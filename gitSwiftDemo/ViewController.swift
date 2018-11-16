@@ -17,7 +17,8 @@ class ViewController: UIViewController {
         let a = "ddd"
         let b = a
         print(b)
-        
+        var arr : Array = [a]
+        arr.remove(at: 0)
     }
 
     @IBAction func clickBtnAction(_ sender: UIButton) {
