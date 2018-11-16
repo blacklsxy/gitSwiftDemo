@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         let b = a
         print(b)
         
+        
+        
+        print("new_label")
     }
 
     @IBAction func clickBtnAction(_ sender: UIButton) {
